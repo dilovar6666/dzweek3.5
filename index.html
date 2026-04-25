@@ -9,9 +9,10 @@
 </head>
 
 <body>
-   <header class="flex max-w-[1300px] m-auto justify-evenly items-center p-[20px]">
-      <a href="#"><img src="./forimg/Лого.png" alt=""></a>
-      <nav class="flex gap-6 text-[15px] font-[600]">
+   <header
+      class="flex flex-col lg:flex-row text-center lg:text-start max-w-[1300px] m-auto justify-evenly items-center p-[20px]">
+      <a href="#"><img class="w-[300px] lg:w-[200px]" src="./forimg/Лого.png" alt=""></a>
+      <nav class="flex flex-col lg:flex-row gap-6 text-[30px] lg:text-[15px] font-[600]">
          <a href="index2.html">Как покупать</a>
          <a href="index3.html">Распродажи</a>
          <a href="index4.html">Цены</a>
@@ -20,7 +21,7 @@
          <a href="index7.html">Блог</a>
          <a href="index8.html">Магазины</a>
       </nav>
-      <div class="flex items-center gap-5">
+      <div class="flex items-center gap-5 mt-[30px] lg:mt-[0]">
          <div class="flex gap-3 text-[15px] font-[600]">
             <img src="./forimg/User.png" alt="">
             <p>Вход</p>
@@ -31,17 +32,154 @@
       </div>
    </header>
 
-   <section class="max-w-[1200px] my-[40px] m-auto flex rounded-[36px] p-[60px] bg-linear-to-r to-[#40B8EA] from-[#5B52A3] ">
-      <aside class="w-[65%]">
-         <h1 class="font-[800] text-[52px] text-white leading-[80px]">Доставка товаров из Великобритании в Россию</h1>
-         <p class="font-[300] text-[20px] leading-[42px] text-white">Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost, чтобы покупать со скидками в UK одежду,
+   <section
+      class="max-w-[1200px] flex flex-col lg:flex-row my-[40px] m-auto flex rounded-[36px] p-[20px] lg:p-[60px] bg-linear-to-b  lg:bg-linear-to-r to-[#40B8EA] from-[#5B52A3] ">
+      <aside class="lg:w-[65%] w-[100%] text-center lg:text-start">
+         <h1 class="lg:font-[800] font-medium text-[33px] lg:text-[52px] text-white leading-024px lg:leading-[80px]">
+            Доставка товаров из Великобритании в Россию</h1>
+         <p class="font-[300] text-[20px] leading-[42px] text-white">Начните экономить до 80% на шопинге.
+            Регистрируйтесь в OkeyPost, чтобы покупать со скидками в UK одежду,
             обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.
          </p>
          <button
-            class="text-[15px] mt-[20px] font-[600] text-white bg-[#00C97B] rounded-[36px] py-[15px] shadow shadow-[#01cb7e] px-[20px]">Получить адрес в UK</button>
+            class="text-[15px] mt-[20px] font-[600] text-white bg-[#00C97B] rounded-[36px] py-[15px] shadow shadow-[#01cb7e] px-[20px]">Получить
+            адрес в UK</button>
       </aside>
       <aside>
-         <img src="./forimg/Иллюстрация.png" alt="">
+         <img class="mt-[20px] lg:mt-[0]" src="./forimg/Иллюстрация.png" alt="">
+      </aside>
+   </section>
+
+
+   <section class="max-w-[1300px] flex flex-col justify-center items-center m-auto">
+      <aside class="w-[1200px] h-[500px] hidden  lg:flex flex-col justify-evenly ">
+         <h1 class="text-[44px] leading-[50px] font-bold text-[#1F2428]">Насколько выгодно <br> покупать?</h1>
+         <div class="flex text-[16px] font-[600] shadow-lg rounded-[16px] shadow-[#757474] items-center  ">
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img class="rotate-180" src="./forimg/Vector 6.png" alt="">
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#F2F6FC]">
+               <img src="./forimg/Иконка.png" alt="">
+               <p>Одежда</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Иконка (1).png" alt="">
+               <p>Электроника</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Group 7.png" alt="">
+               <p>Аксессуары</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Group (19).png" alt="">
+               <p>Для<span class="text-white">_</span>детей</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Group (20).png" alt="">
+               <p>Для<span class="text-white">_</span>спорта</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Group 10 (1).png" alt="">
+               <p>Косметика</p>
+            </div>
+            <div class="flex items-center gap-2 p-[30px] bg-[#f2f6fc00]">
+               <img src="./forimg/Vector 6.png" alt="">
+            </div>
+         </div>
+      </aside>
+
+      <aside class="flex flex-col lg:flex-row items-center px-[40px]">
+         <div class="h-[320px] flex flex-col justify-evenly">
+            <p class="font-bold text-[26px]">Columbia Barlow Pass 550 <br> Turbodown Jacket</p>
+            <div class="flex items-center rounded-[16px] gap-5 p-[30px] w-[300px] bg-[#F2F6FC]">
+               <img src="./forimg/фон.png" alt="">
+               <div>
+                  <p class=" text-[18px]">Цена в России</p>
+                  <h1 class="font-bold text-[25px]">7891,46p</h1>
+               </div>
+            </div>
+         </div>
+         <div><img src="./forimg/Куртка.png" alt=""></div>
+         <div class="h-[320px] flex flex-col justify-evenly items-end">
+            <p class="font-bold text-[26px]">Доставка одежды из <br> Великобритании от <span
+                  class="text-[#01CD7D]">£7.79</span></p>
+            <div class="flex items-center rounded-[16px] gap-5 p-[30px] w-[300px] bg-[#F2F6FC]">
+               <img src="./forimg/фон (1).png" alt="">
+               <div>
+                  <p class=" text-[18px]">Цена в UK</p>
+                  <h1 class="font-bold text-[25px] text-[#01CD7D]">£80.62</h1>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <aside class="bg-white py-2 w-[1200px] px-6 font-inter">
+         <div class="max-w-[1300px] mx-auto flex flex-col items-center">
+            <div class="w-full flex items-center justify-between gap-8 mb-10">
+               <div class="flex items-center gap-6">
+                  <div
+                     class="w-32 h-32 rounded-full bg-gray-50 border border-gray-100 overflow-hidden flex items-center justify-center shadow-md">
+                     <img src="./forimg/Layer 2 1.png" alt="" class="w-24 h-24 object-contain">
+                  </div>
+                  <span class="text-[#00d084] text-3xl font-light"><img class="rotate-180" src="./forimg/Vector 6.png" alt=""></span>
+               </div>
+               <div class="text-center">
+                  <p class="text-gray-400 text-sm mb-2">Срок доставки примерно 10 дней</p>
+                  <h3 class="text-2xl md:text-3xl font-bold text-gray-900">
+                     Вы экономите до <span class="text-[#00d084]">$119.56</span>
+                  </h3>
+               </div>
+               <div class="flex items-center gap-6">
+                  <span class="text-[#00d084] text-3xl font-light"><img src="./forimg/Vector 6.png" alt=""></span>
+                  <div
+                     class="w-32 h-32 rounded-full bg-gray-50 border border-gray-100 overflow-hidden flex items-center justify-center shadow-md">
+                     <img src="./forimg/Layer 3 1.png" alt="" class="w-24 h-24 object-contain">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <aside class="bg-white py-16 px-10">
+         <div class="max-w-[1300px] mx-auto">
+            <div
+               class="bg-white rounded-2xl shadow-[0_10px_50px_rgba(0,0,0,0.1)] border border-gray-100 flex flex-wrap md:flex-nowrap divide-y md:divide-y-0 md:divide-x divide-gray-200">
+               <div class="flex items-center gap-5 p-8 w-full">
+                  <div class="w-12 h-12 flex-shrink-0">
+                     <img src="./forimg/Иконка (2).png" alt="" class="w-full h-full object-contain">
+                  </div>
+                  <div>
+                     <h4 class="font-bold text-gray-900 leading-tight">Экономия</h4>
+                     <p class="text-gray-500 text-sm">до 70%</p>
+                  </div>
+               </div>
+               <div class="flex items-center gap-5 p-8 w-full">
+                  <div class="w-12 h-12 flex-shrink-0">
+                     <img src="./forimg/Иконка (3).png" alt="" class="w-full h-full object-contain">
+                  </div>
+                  <div>
+                     <h4 class="font-bold text-gray-900 leading-tight">Только подлинная</h4>
+                     <p class="text-gray-500 text-sm">продукция</p>
+                  </div>
+               </div>
+               <div class="flex items-center gap-5 p-8 w-full">
+                  <div class="w-12 h-12 flex-shrink-0">
+                     <img src="./forimg/Иконка (4).png" alt="" class="w-full h-full object-contain">
+                  </div>
+                  <div>
+                     <h4 class="font-bold text-gray-900 leading-tight">Оперативная</h4>
+                     <p class="text-gray-500 text-sm">доставка</p>
+                  </div>
+               </div>
+               <div class="flex items-center gap-5 p-8 w-full">
+                  <div class="w-12 h-12 flex-shrink-0">
+                     <img src="./forimg/Иконка (5).png" alt="" class="w-full h-full object-contain">
+                  </div>
+                  <div>
+                     <h4 class="font-bold text-gray-900 leading-tight">Огромный</h4>
+                     <p class="text-gray-500 text-sm">выбор товаров</p>
+                  </div>
+               </div>
+            </div>
+         </div>
       </aside>
    </section>
 </body>
