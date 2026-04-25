@@ -112,7 +112,73 @@
                </span>
             </div>
          </div>
+      </div>
+   </section>
 
+
+   <section class="bg-white py-20 px-6 font-inter">
+      <div class="max-w-[1300px] mx-auto">
+         <div class="max-w-3xl mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#121926] leading-tight mb-6">
+               Онлайн-калькулятор
+               стоимости доставки товара
+            </h1>
+            <p class="text-gray-500 text-lg leading-relaxed">
+               Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную стоимость доставки вашей
+               посылки из Англии.
+            </p>
+         </div>
+         <div class="bg-white rounded-[30px] shadow-[0_20px_80px_rgba(0,0,0,0.08)] p-8 md:p-12 border border-gray-50">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-end">
+               <div class="space-y-3">
+                  <label class="text-sm font-bold text-[#121926]">Страна:</label>
+                  <div class="relative border-b-2 border-gray-200 pb-2 flex items-center gap-2">
+                     <span class="text-xl"><img src="../forimg/GlobeHemisphereWest.png" alt=""></span>
+                     <input type="text" value="Россия" class="w-full outline-none bg-transparent text-gray-700"
+                        readonly>
+                     <span class="text-gray-400 text-xs">▼</span>
+                  </div>
+               </div>
+               <div class="space-y-3">
+                  <label class="text-sm font-bold text-[#121926]">Город:</label>
+                  <div class="relative border-b-2 border-gray-200 pb-2 flex items-center gap-2">
+                     <span class="text-xl"><img src="../forimg/Buildings.png" alt=""></span>
+                     <input type="text" placeholder="Москва" class="w-full outline-none bg-transparent text-gray-700">
+                  </div>
+               </div>
+               <div class="space-y-3">
+                  <label class="text-sm font-bold text-[#121926]">Индекс:</label>
+                  <div class="relative border-b-2 border-gray-200 pb-2 flex items-center gap-2">
+                     <span class="text-xl"><img src="../forimg/Notebook.png" alt=""></span>
+                     <input type="text" placeholder="Введите индекс"
+                        class="w-full outline-none bg-transparent text-gray-700">
+                  </div>
+               </div>
+               <div class="space-y-3">
+                  <label class="text-sm font-bold text-[#121926]">Вес посылки:</label>
+                  <div class="relative border-b-2 border-gray-200 pb-2 flex items-center gap-2">
+                     <span class="text-xl"><img src="../forimg/Barbell.png" alt=""></span>
+                     <input type="text" placeholder="0,5" class="w-full outline-none bg-transparent text-gray-700">
+                     <span class="text-gray-400 text-sm italic">кг</span>
+                  </div>
+               </div>
+               <div class="space-y-3">
+                  <label class="text-sm font-bold text-[#121926]">Дополнительные услуги:</label>
+                  <div class="relative border-b-2 border-gray-200 pb-2 flex items-center gap-2">
+                     <span class="text-xl"><img src="../forimg/FileText.png" alt=""></span>
+                     <input type="text" placeholder="Выберите услуги"
+                        class="w-full outline-none bg-transparent text-gray-700" readonly>
+                     <span class="text-gray-400 text-xs">▼</span>
+                  </div>
+               </div>
+            </div>
+            <div class="mt-10">
+               <button
+                  class="bg-[#00d084] text-white font-bold py-4 px-12 rounded-full transition-all shadow-lg shadow-[#00d084]/30">
+                  Рассчитать
+               </button>
+            </div>
+         </div>
       </div>
    </section>
 </body>
